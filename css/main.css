@@ -49,15 +49,34 @@ ul {
 	display: block;
 	float: left;
 	list-style-type: none;
+
 }
-.top-menu a {
+.top-menu li a {
     border-left: 1px solid #268fcc;
     color: #fff;
     font-family: "RobotoRegular";
     line-height: 57px;
-    padding: 17px 15px 17px 30px;
+    padding: 17px 15px 17px 45px;
     text-transform: uppercase;
+    background:url(../img/mnu-iconpack.png) no-repeat;
+    background-position: 7px 11px;
 }
+.top-menu li:nth-child(2) a {
+	background-position: 7px -107px;
+}
+.top-menu li:nth-child(3) a {
+	background-position: 7px -46px;
+}
+.top-menu li:nth-child(4) a {
+	background-position: 7px -167px;
+}
+.top-menu li:nth-child(5) a {
+	background-position: 7px -221px;
+}
+.top-menu li:nth-child(6) a {
+	background-position: 7px -275px;
+}
+
 .top-menu a:hover {
 	background-color: #0D5F8F;
 	text-decoration: none;
