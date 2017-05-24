@@ -109,7 +109,7 @@ ul {
 	border-radius: 5px;
 }
 .items li {
-	padding: 5px 18px;
+	padding: 5px 17px;
 	display: inline-block;
 }
 
@@ -143,9 +143,10 @@ ul {
 .tech {
 	background-color: #B4D5EA;
 	border-radius: 5px;
+	margin-bottom: 15px;
 }
 .t-item {
-	width: 50%;
+	width: 100%;
 	float: left;
 	position: relative;
 }
@@ -163,6 +164,9 @@ ul {
 	left:0;
 	right: 0;
 	background-color: rgba(0, 0, 0, 0.6);
+}
+.col-size {
+	padding:0px;
 }
 .rsidebar .column {
 	margin: 0 10px;
