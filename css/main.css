@@ -54,7 +54,7 @@ ul {
 .top-menu li a {
     border-left: 1px solid #268fcc;
     color: #fff;
-    font-family: "RobotoRegular";
+    font-family: "RobotoCondensedRegular";
     line-height: 57px;
     padding: 17px 15px 17px 45px;
     text-transform: uppercase;
@@ -68,7 +68,7 @@ ul {
 	background-position: 7px -46px;
 }
 .top-menu li:nth-child(4) a {
-	background-position: 7px -167px;
+	background-position: 7px -165px;
 }
 .top-menu li:nth-child(5) a {
 	background-position: 7px -221px;
