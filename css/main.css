@@ -216,14 +216,23 @@ ul {
     border-radius: 5px;
     display: block;
     padding: 0;
-    color: #fff
+    color: #fff;
+    text-align: center;
+
 }
 .contact > h3 {
     float: left;
-    margin: 25px 20px;
+    margin: 20px 20px;
 }
-.contact p {
-	float: left;
+.contact > p {
+    float: left;
+    margin: 10px 0;
+}
+.contact a {
+	text-decoration: underline;
+}
+.contact a:hover {
+	text-decoration: none;
 }
 .copyright, .footer-info {
 	float: left;
@@ -237,4 +246,24 @@ ul {
 .banner {
 	display: inline-block;
 	padding-right: 10px;
+}
+.footer {
+	padding: 0px 15px;
+	border-right:1px solid #dddddd;
+	font-size: 12px;
+}
+.footer > strong {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.footer > p {
+    margin-top: 0px;
+}
+.info > p {
+	margin-top:10px;
+}
+.map {
+	float: right;
+	text-align: right;
 }
