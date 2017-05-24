@@ -224,11 +224,11 @@ ul {
     float: left;
     margin: 20px 20px;
 }
-.contact > p {
-    float: left;
-    margin: 10px 0;
+.place {
+    margin: 9px;
 }
 .contact a {
+	color: #fff;
 	text-decoration: underline;
 }
 .contact a:hover {
