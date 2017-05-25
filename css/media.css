@@ -18,7 +18,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+	.head-link {
+	    float: right;
+	    margin: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
 }
 
 /* Small Devices, Tablets */
