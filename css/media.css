@@ -1,1 +1,88 @@
-@media only screen and (max-width:1200px){.top-menu li a{padding:17px 10px 17px 10px;background-image:none}.items img{display:block;margin:auto;width:75%}.items li{padding:0 0 0 2px}}@media only screen and (max-width:992px){.head-link{float:right;margin:20px;text-align:center;width:100%}.main-menu{display:none}.btn-small{display:inline-block}.top-menu a:hover{background-color:#007EC7;text-decoration:none;color:#fff;border-radius:5px}.search a{display:none}}@media only screen and (max-width:768px){}@media only screen and (max-width:480px){}@media only screen and (max-width:320px){}@media only screen and (min-width:320px){}@media only screen and (min-width:480px){}@media only screen and (min-width:768px){}@media only screen and (min-width:992px){.drop-cont{display:none}}@media only screen and (min-width:1200px){}
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.top-menu li a {
+		padding: 17px 10px 17px 10px;
+		background-image: none;
+	}
+	.items img {
+    	display: block;
+	    margin: auto;
+	    width: 75%;
+	}
+	.items li{
+		padding: 0 0 0 2px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.head-link {
+	    float: right;
+	    margin: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
+	.main-menu {
+		display: none;
+	}
+
+	.btn-small {
+		display: inline-block;
+	}
+	.top-menu a:hover {
+	background-color: #007EC7;
+	text-decoration: none;
+	color:#fff;
+	border-radius: 5px;
+	}
+	.search a {
+		display: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.drop-cont {
+		display: none;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
