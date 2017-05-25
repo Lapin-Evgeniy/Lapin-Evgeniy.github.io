@@ -163,17 +163,22 @@ ul {
 	color: #3D3D3D;
 	font-size: 14px;
 }
+.sidebar .column a {
+	text-decoration: none;
+}
 .sidebar .column a:hover {
 	border-bottom: none;
 	text-decoration: none;
-	color: #b83a3a;
+	color: #5c5959;
 }
 .sidebar .column h3 {
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
-.menu {
-	z-index: 1;
+.sidebar .accord li a{
+	font-size: 12px;
+	margin-left: 20px;
+	color:#989595;
 }
 .tech {
 	background-color: #B4D5EA;
