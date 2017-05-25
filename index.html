@@ -4,11 +4,13 @@
 
 	<meta charset="UTF-8">
 	<title>Техника лесозаготовительная, складская и дорожно-строительная, продажа спецтехники в Сибири. Погрузчики и стеллажи для склада</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<meta name="Description" content="«Сибирь-Техника» - лидер продаж специальной и лесозаготовительной техники; тракторов и навесного оборудования МТЗ. Широкий ассортимент складской техники – штабелеры, ричтраки, тележки со склада в Барнауле. Ремонт и сервисное обслуживание техники.">
 	<meta name="Keywords" content="лесозаготовительная складская специальная техника трактор МТЗ навесное оборудование погрузочная дорожно-строительная техника">
 	<link rel="stylesheet" href="libs/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
 	
 </head>
 <body>
@@ -16,31 +18,31 @@
 		<div class="modal-dialog">
 			<div class="model-content">
 				<div class="modal-header">
-					 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-					  <h4 class="modal-title">Заголовок модального окна</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<h4 class="modal-title">Отправьте нам свой номер телефона, и мы вам перезвоним!</h4>
 				</div>
 				<div class="modal-body">
-      					 Содержимое модального окна...
-     				</div>
-     				<div class="modal-footer">
-      					<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-      					<button type="button" class="btn btn-primary">Сохранить изменения</button>
-     				</div>
+      			 	<p><span>Ваше имя:</span><input type="text"></p>
+      			 	<p><span>Номер телефона:</span><input type="text"></p>
+      			 	<p><span>Какой товар, или услуга Вас заинтересовали:</span><input type="text"></p>
+     			</div>
+     			<div class="modal-footer">
+      				<button type="button" class="btn btn-default" data-dismiss="modal">Отправить</button>
+     			</div>
 			</div>
 		</div>
 	</div>
 	<header>
 		<div class="container">
 				<div class="row top-line">
-					<div class="col-md-4 col-sm-5">
-					<div class="logo">
-						<a href="index.html" alt="home">
-							<img src="img/logo/logo20172.png" alt="logo">
-						</a>
+					<div class="col-md-4">
+						<div class="logo">
+							<a href="index.html" alt="home">
+								<img src="img/logo/logo20172.png" alt="logo">
+							</a>
+						</div>
 					</div>
-				</div>
-				
-				<div class="col-md-8 col-sm-5">
+					<div class="col-md-8">
 					<div class="head-link">
 						<div>
 							<strong>iso 9001:2015</strong>
@@ -54,20 +56,30 @@
 							<a href="#Call-back" class="btn" data-toggle="modal">Заказать обратный звонок</a>
 						</div>
 					</div>
-				</div>
+					</div>
 			</div>
 		</div>
 	</header>
 	<div class="container">
 		<div class="row">
-			<ul class="top-menu clearfix">
-				<li><a class="first" href="#">компания</a></li>
-				<li><a href="#">Каталог</a></li>
-				<li><a href="#">Производство</a></li>
-				<li><a href="#">Партнеры</a></li>
-				<li><a href="#">Сервис</a></li>
-				<li><a href="#">Вопрос | Ответ</a></li>
-			</ul>	
+			<div class="top-menu clearfix">
+				<ul class="dropdown">
+					<li><a class="first" href="#">компания</a></li>
+					<li><a href="#">Каталог</a></li>
+					<li><a href="#">Производство</a></li>
+					<li><a href="#">Партнеры</a></li>
+					<li><a href="#">Сервис</a></li>
+					<li><a href="#">Вопрос | Ответ</a></li>
+				</ul>
+				<div class="search">
+					<form action="search">
+						<input type="text" name="search" placeholder="Поиск техники">
+						<a href="#">RU</a>|<a href="#">EN</a>
+					</form>
+				</div>
+			</div>
+			
+			
 		</div>
 	</div>
 	<div class="container carousel">
@@ -89,11 +101,18 @@
 			<div class="content">
 				<div class="col-md-3">
 					<div class="sidebar">
-						<div class="column">
+						<div id="nav" class="column">
 							<h3>Каталог техники</h3>
+							
 							<ul>
 								<li><a href="#">Акции и спецпредложения</a></li>
-								<li><a href="#">Техника на гусеничном ходу</a></li>
+								<li class="btn btn-default dropdown-toggle" data-toggle="dropdown"><a href="#">Техника на гусеничном ходу</a>
+									<ul class="dropdown-menu">
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+									</ul>	
+								</li>
 								<li><a href="#">Дорожно-строительная техника</a></li>
 								<li><a href="#">Прицепы</a></li>
 								<li><a href="#">Складская техника</a></li>
@@ -185,6 +204,7 @@
 									</a>
 								</li>
 							</ul>
+							<img src="img/logo/becema85.png" alt="БЕЦЕМА">
 						</div>
 					</div>
 				</div>
