@@ -24,6 +24,18 @@
 	    text-align: center;
 	    width: 100%;
 	}
+	.main-menu {
+		display: none;
+	}
+	.btn-small {
+		display: inline-block;
+	}
+	.top-menu a:hover {
+	background-color: #007EC7;
+	text-decoration: none;
+	color:#fff;
+	border-radius: 5px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -61,7 +73,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	.btn-small {
+		display: none;
+	}
 }
 
  /* Large Devices, Wide Screens */
