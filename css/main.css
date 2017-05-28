@@ -168,8 +168,9 @@ border-bottom: 1px solid #268fcc;
 	border-radius: 5px;
 }
 .item {
-	margin-left:10px;
-}
+    display: inline-block;
+    margin-left: 10px;
+	}
 .items li {
 
 	padding: 5px 17px;

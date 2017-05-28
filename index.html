@@ -8,7 +8,7 @@
 	<meta name="Description" content="«Сибирь-Техника» - лидер продаж специальной и лесозаготовительной техники; тракторов и навесного оборудования МТЗ. Широкий ассортимент складской техники – штабелеры, ричтраки, тележки со склада в Барнауле. Ремонт и сервисное обслуживание техники.">
 	<meta name="Keywords" content="лесозаготовительная складская специальная техника трактор МТЗ навесное оборудование погрузочная дорожно-строительная техника">
 	<link rel="stylesheet" href="libs/bootstrap.min.css" />
-	<link rel="stylesheet" href="libs/OwlCarousel2/dist/owl.carousel.css" />
+	<!-- <link rel="stylesheet" href="libs/OwlCarousel/owl.carousel.css" /> -->
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
@@ -114,12 +114,6 @@
 					<div class="col-md-12">
 						<div class="owl-carousel">
 							<div class="item"><img  src="img/logo/fl.png" alt="carousel"/></div>
-						    <div class="item"><img  src="img/logo/dm.png" alt="carousel"/></div>
-						    <div class="item"><img  src="img/logo/seppi.png" alt="carousel"/></div>
-						    <div class="item"><img  src="img/logo/morooka.png" alt="carousel"/></div>
-						    <div class="item"><img  src="img/logo/ep.png" alt="carousel"/></div>
-						    <div class="item"><img  src="img/logo/becema.png" alt="carousel"/></div>
-						    <div class="item"><img  src="img/logo/fl.png" alt="carousel"/></div>
 						    <div class="item"><img  src="img/logo/dm.png" alt="carousel"/></div>
 						    <div class="item"><img  src="img/logo/seppi.png" alt="carousel"/></div>
 						    <div class="item"><img  src="img/logo/morooka.png" alt="carousel"/></div>
@@ -495,24 +489,29 @@
 	</footer>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="libs/OwlCarousel2/dist/owl.carousel.js"></script>
-<script type="text/javascript">
-	var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:6,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:false
-});
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[2000])
-})
-$('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
-})
-</script>
+<!-- <script type="text/javascript" src="libs/OwlCarousel/owl.carousel.js"></script> -->
+<!-- <script type="text/javascript">
+//Каруселька
+	//Документация: http://owlgraphic.com/owlcarousel/
+	var owl = $(".carousel");
+	owl.owlCarousel({
+		items : 4
+	});
+	owl.on("mousewheel", ".owl-wrapper", function (e) {
+		if (e.deltaY > 0) {
+			owl.trigger("owl.prev");
+		} else {
+			owl.trigger("owl.next");
+		}
+		e.preventDefault();
+	});
+	$(".next_button").click(function(){
+		owl.trigger("owl.next");
+	});
+	$(".prev_button").click(function(){
+		owl.trigger("owl.prev");
+	});
+</script> -->
 
 </body>
 </html>
