@@ -24,18 +24,22 @@ ul {
 .head-link {
 	text-align: right;
 	float: right;
+	padding-right:15px;
 }
 .head-link strong {
-	display: block;
-	text-transform: uppercase;
+    display: inline-block;
+    text-transform: uppercase;
 }
 .head-link a {
 	font-family: "RobotoBold";
 	text-transform: uppercase;
 }
 .head-link > div {
-	margin-bottom: 5px;
-	line-height: 21px;
+    line-height: 21px;
+    margin: 15px 0;
+}
+.address > a {
+    font-size: 22px;
 }
 .top-menu {
     background-color: #007ec7;
@@ -138,22 +142,16 @@ border-bottom: 1px solid #268fcc;
 .model-content {
 	background-color: #fff;
     margin: auto;
-    width: 350px;
+    width: 550px;
     margin-top: 200px;
     position: relative;
 }
-.modal-body input {
-	float: right;
+.modal-body .row {
+	margin-bottom: 10px;
 }
-.modal-body p:nth-child(3) input {
-	height: 50px;
-}
-.close {
-    border: 2px solid black;
-    border-radius: 50%;
-    left: -10px;
-    position: absolute;
-    top: -8px;
+.modal-body .row input,
+.modal-body .row textarea {
+    width: 100%;
 }
 
 	 /*  ___________________________________________________
@@ -193,14 +191,17 @@ border-bottom: 1px solid #268fcc;
 	padding:15px;
 	margin-bottom: 20px;
 }
+.sidebar .column > li {
+	background: url(../img/bottom-border.jpg) no-repeat;
+}
 .sidebar .column a {
-	text-decoration: none;
-    border-bottom: 1px dashed #939593;
+    border-bottom: 1px dashed #000000;
     color: #3d3d3d;
-    display: block;
+    display: inline-block;
     font-size: 14px;
     line-height: 20px;
     margin-left: 5px;
+    text-decoration: none;
 }
 .sidebar .column a:hover {
 	color: #BE3A3A;
@@ -209,6 +210,9 @@ border-bottom: 1px solid #268fcc;
 .sidebar .column h3 {
 	margin-top: 0px;
 	margin-bottom: 10px;
+}
+.sidebar .accord > li {
+    display: inline-block;
 }
 .sidebar .accord li a{
 	font-size: 12px;
