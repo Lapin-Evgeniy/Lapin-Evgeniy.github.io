@@ -162,15 +162,12 @@ border-bottom: 1px solid #268fcc;
 	margin: 30px 15px 0 15px;
 	border: 1px solid #007EC7;
 	border-radius: 5px;
-
 }
 .items li {
 
 	padding: 5px 17px;
 	display: inline-block;
 }
-
-
  /* 	  ___________________________________________________
 	 	 /  		*******	Content  *******				/
 	 	/__________________________________________________/ -*/
@@ -191,8 +188,14 @@ border-bottom: 1px solid #268fcc;
 	padding:15px;
 	margin-bottom: 20px;
 }
-.sidebar .column > li {
-	background: url(../img/bottom-border.jpg) no-repeat;
+.sidebar .column .main-list > li {
+	
+	
+}
+.panel-heading > a {
+	background: url(../img/marker1.jpg) no-repeat;
+	background-position: 0px 7px;
+	padding-left: 7px;
 }
 .sidebar .column a {
     border-bottom: 1px dashed #000000;
@@ -211,8 +214,11 @@ border-bottom: 1px solid #268fcc;
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
-.sidebar .accord > li {
+.sidebar .accord {
     display: inline-block;
+}
+.sidebar .accord > li {
+    display: block;
 }
 .sidebar .accord li a{
 	font-size: 12px;

@@ -24,20 +24,20 @@
 				<div class="modal-body">
       			 	<form role="form">
 						<div class="form-group row">
-						    <label for="inputname" class="col-md-4">Введите ваше имя:</label>
-						   	<div class="col-md-8">
-						   		<input type="text" class="form-control" id="inputname" placeholder="Введите имя">
+						    <label for="inputname" class="col-md-4 col-xs-4">Введите ваше имя:</label>
+						   	<div class="col-md-8 col-xs-8">
+						   		<input type="text" class="form-control" id="inputname" placeholder="">
 						   	</div>
 						</div>
 						<div class="form-group row">
-						    <label for="inputnumber" class="col-md-4">Номер телефона:</label>
-						    <div class="col-md-8">
-						    	<input type="text" class="form-control" id="inputnumber" placeholder="8(999)111 22 22">
+						    <label for="inputnumber" class="col-md-4 col-xs-4">Номер телефона:</label>
+						    <div class="col-md-8 col-xs-8">
+						    	<input type="text" class="form-control" id="inputnumber" placeholder="">
 						    </div>
 						</div>
 						<div class="form-group row">
-						    <label for="inputtext" class="col-md-4">Какой товар, или услуга Вас заинтересовали:</label>
-						   	<div class="col-md-8">
+						    <label for="inputtext" class="col-md-4 col-xs-4">Какой товар, или услуга Вас заинтересовали:</label>
+						   	<div class="col-md-8 col-xs-8">
 						   		<textarea type="text" class="form-control" id="inputtext" placeholder="" rows="3"></textarea>
 						   	</div>
 						</div>
@@ -135,8 +135,15 @@
 					<div class="sidebar">
 						<div id="nav" class="column">
 							<h3>Каталог техники</h3>
-							<ul class="panel-group" id="accordion">
-								<li><a href="#">Акции и спецпредложения</a></li>
+							<ul class="panel-group main-list" id="accordion">
+								<li class="panel panel-default">
+							   		<div class="panel-heading">
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse">Акции и спецпредложения</a>
+							    	</div>
+							    	<div id="collapse" class="panel-collapse collapse in">
+							        		
+							   		</div>
+							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
 							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Техника на гусеничном ходу</a>
@@ -167,24 +174,15 @@
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Прицепы</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Прицепы</a>
 							    	</div>
 							    	<div id="collapse3" class="panel-collapse collapse">
-							        	<ul class=accord>
-											<li><a href="#">Базовое гусеничное шасси</a></li>
-											<li><a href="#">Лесозаготовительная техника</a></li>
-											<li><a href="#">Спецтехника</a></li>
-											<li><a href="#">Лесопожарная техника</a></li>
-										</ul>
+							        	
 							   		</div>
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Складская техника</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Складская техника</a>
 							    	</div>
 							    	<div id="collapse4" class="panel-collapse collapse">
 							        	<ul class=accord>
@@ -205,9 +203,7 @@
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Тракторы и навесное оборудование</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Тракторы и навесное оборудование</a>
 							    	</div>
 							    	<div id="collapse5" class="panel-collapse collapse">
 							        	<ul class=accord>
@@ -220,9 +216,7 @@
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Лесные измельчители (мульчеры) и косилки</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Лесные измельчители (мульчеры) и косилки</a>
 							    	</div>
 							    	<div id="collapse6" class="panel-collapse collapse">
 							        	<ul class=accord>
@@ -234,48 +228,31 @@
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Стеллажное оборудование</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Стеллажное оборудование</a>
 							    	</div>
 							    	<div id="collapse7" class="panel-collapse collapse">
-							        	<ul class=accord>
-											<li><a href="#">Базовое гусеничное шасси</a></li>
-											<li><a href="#">Лесозаготовительная техника</a></li>
-											<li><a href="#">Спецтехника</a></li>
-											<li><a href="#">Лесопожарная техника</a></li>
-										</ul>
+							        	
 							   		</div>
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Погрузчик ПКУ 0,8М (КУН)</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Погрузчик ПКУ 0,8М (КУН)</a>
 							    	</div>
 							    	<div id="collapse8" class="panel-collapse collapse">
-							        	<ul class=accord>
-											
-										</ul>
+							        	
 							   		</div>
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse9">FOTON LOVOL</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse9">FOTON LOVOL</a>
 							    	</div>
 							    	<div id="collapse9" class="panel-collapse collapse">
-							        	<ul class=accord>
-											
-										</ul>
+							        	
 							   		</div>
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse10">БЕЦЕМА</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse10">БЕЦЕМА</a>
 							    	</div>
 							    	<div id="collapse10" class="panel-collapse collapse">
 							        	<ul class=accord>
@@ -300,50 +277,34 @@
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse11">Техника BOBCAT</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse11">Техника BOBCAT</a>
 							    	</div>
 							    	<div id="collapse11" class="panel-collapse collapse">
-							        	<ul class=accord>
-											
-										</ul>
+							        	
 							   		</div>
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse12">Завод Дорожные Машины</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse12">Завод Дорожные Машины</a>
 							    	</div>
 							    	<div id="collapse12" class="panel-collapse collapse">
-							        	<ul class=accord>
-											
-										</ul>
+							        	
 							   		</div>
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse13">Экскаваторы</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse13">Экскаваторы</a>
 							    	</div>
 							    	<div id="collapse13" class="panel-collapse collapse">
-							        	<ul class=accord>
-											
-										</ul>
+							        	
 							   		</div>
 							  	</li>
 							  	<li class="panel panel-default">
 							   		<div class="panel-heading">
-							        	<div class="panel-body">
-							        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse14">Тали, лебедки, балки, краны</a>
-							        	</div>
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse14">Тали, лебедки, балки, краны</a>
 							    	</div>
 							    	<div id="collapse14" class="panel-collapse collapse">
-							        	<ul class=accord>
-											
-										</ul>
+							        	
 							   		</div>
 							  	</li>
 							</ul>

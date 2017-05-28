@@ -20,7 +20,6 @@
 @media only screen and (max-width : 992px) {
 	.head-link {
 	    float: right;
-	    margin: 20px;
 	    text-align: center;
 	    width: 100%;
 	}
@@ -44,12 +43,22 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	.model-content {
+		width: 400px;
+		font-size: 12px;
+	}
+	.head-link {
+		text-align: center;
+		padding-right:0px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.model-content {
+		width: 300px;
+		font-size: 12px;
+	}
 }
 
 /* Custom, iPhone Retina */
