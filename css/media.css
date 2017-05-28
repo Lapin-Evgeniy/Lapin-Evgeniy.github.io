@@ -36,7 +36,8 @@
 	color:#fff;
 	border-radius: 5px;
 	}
-	.search a {
+	.search a,
+	.search span {
 		display: none;
 	}
 }
@@ -51,13 +52,39 @@
 		text-align: center;
 		padding-right:0px;
 	}
+	.map {
+   	 	float: left;
+    	text-align: left;
+	}
+	.footer {
+	border-right:none;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.model-content {
-		width: 300px;
+		width: 100%;
 		font-size: 12px;
+	}
+	.top-menu {
+	   -webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	    margin: 0;
+	    min-width: 300px;
+	}
+	.contact {
+	    -webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	    margin: 0;
+	    min-width: 300px;
+	}
+	.tech {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
 	}
 }
 

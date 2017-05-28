@@ -43,8 +43,10 @@ ul {
 }
 .top-menu {
     background-color: #007ec7;
-    border-radius: 5px;
-    display: block;
+   	-webkit-border-radius: 5px;
+   	-moz-border-radius: 5px;
+   	border-radius: 5px;
+   	display: block;
     margin: 30px 15px 0;
     padding: 0;
 }
@@ -84,9 +86,10 @@ ul {
 }
 
 .top-menu .first {
-	border-radius:5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
 }
-
 .drop-cont {
 	display: inline-block;
 }
@@ -157,11 +160,15 @@ border-bottom: 1px solid #268fcc;
 	 /*  ___________________________________________________
 	 	 /  		*******	CAROUSEL *******				/
 	 	/__________________________________________________/ -*/
-
-.items {
-	margin: 30px 15px 0 15px;
+.carousel-box {
+	margin: 30px 15px 0;
 	border: 1px solid #007EC7;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	border-radius: 5px;
+}
+.item {
+	margin-left:10px;
 }
 .items li {
 
@@ -183,13 +190,14 @@ border-bottom: 1px solid #268fcc;
 	padding-bottom: 30px;
 }
 .sidebar .column {
-	border-radius: 5px;
-	background-color: #E0E5E9;
-	padding:15px;
-	margin-bottom: 20px;
+    background-color: #e0e5e9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 3px;
 }
 .sidebar .column .main-list > li {
-	
 	
 }
 .panel-heading > a {
@@ -199,35 +207,41 @@ border-bottom: 1px solid #268fcc;
 }
 .sidebar .column a {
     border-bottom: 1px dashed #000000;
-    color: #3d3d3d;
+    color: #525252;
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
     margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 8px;
     text-decoration: none;
 }
 .sidebar .column a:hover {
 	color: #BE3A3A;
 	border-bottom: 1px dashed #BE3A3A;
 }
-.sidebar .column h3 {
-	margin-top: 0px;
-	margin-bottom: 10px;
+.sidebar h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 .sidebar .accord {
     display: inline-block;
 }
-.sidebar .accord > li {
+.sidebar .accord li {
     display: block;
 }
-.sidebar .accord li a{
-	font-size: 12px;
-	margin-left: 20px;
-	color: #4c4949;
-	display: block;
+.sidebar .accord li a {
+    background: url("../img/marker2.jpg") no-repeat scroll 1px 7px;
+    color: #4c4949;
+    font-size: 12px;
+    margin-left: 13px;
+    padding-left: 10px;
 }
 .tech {
 	background-color: #B4D5EA;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	border-radius: 5px;
 	margin-bottom: 15px;
 }
@@ -299,6 +313,8 @@ border-bottom: 1px solid #268fcc;
 
 .contact {
     background-color: #007ec7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     border-radius: 5px;
     color: #fff;
     display: block;
