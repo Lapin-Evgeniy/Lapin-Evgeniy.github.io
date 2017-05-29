@@ -254,7 +254,6 @@ border-bottom: 1px solid #268fcc;
 	margin-top: 37px;
 	padding-bottom: 17px;
 }
-
 .t-item {
 	width: 100%;
 	float: left;
@@ -278,7 +277,9 @@ border-bottom: 1px solid #268fcc;
     font-weight: bold;
     font-size: 14px;
 }
-
+.ctgr {
+	padding-bottom: 30px
+}
 .col-size {
 	padding:0px;
 }
@@ -359,9 +360,8 @@ border-bottom: 1px solid #268fcc;
 }
 .banners-bottom {
 	text-align: center;
-	padding: 25px 0;
+	padding: 40px 0 35px;
 	border-top: 3px solid #cccccc;
-	margin-top: 10px;
 }
 .banner {
 	display: inline-block;
@@ -384,6 +384,8 @@ border-bottom: 1px solid #268fcc;
 	margin-top:10px;
 }
 .map {
+	font-size: 16px;
 	float: right;
-	text-align: right;
+	text-align: right;]
+
 }
