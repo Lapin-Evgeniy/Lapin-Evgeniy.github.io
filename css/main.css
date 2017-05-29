@@ -35,20 +35,24 @@ ul {
 	text-transform: uppercase;
 	text-decoration: underline;
 }
-.head-link > div {
+.iso, .call-back {
     line-height: 21px;
     margin: 14px 0;
+}
+.address {
+	margin: 20px 0 10px;
 }
 .address > a {
     font-size: 22px;
 }
+
 .top-menu {
     background-color: #007ec7;
-   	-webkit-border-radius: 6px;
+    -webkit-border-radius: 6px;
    	-moz-border-radius: 6px;
    	border-radius: 6px;
-   	display: block;
-    margin: 20px 15px 0;
+    display: block;
+    margin: 0 15px;
     padding: 0;
 }
 .top-menu li {
