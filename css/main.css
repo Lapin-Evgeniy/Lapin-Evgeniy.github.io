@@ -31,8 +31,7 @@ ul {
     text-transform: uppercase;
 }
 .head-link a {
-	font-family: "RobotoBold";
-	text-transform: uppercase;
+	font-family: "RobotoRegular";
 	text-decoration: underline;
 }
 .iso, .call-back {
@@ -43,9 +42,8 @@ ul {
 	margin: 20px 0 10px;
 }
 .address > a {
-    font-size: 22px;
+    font-size: 24px;
 }
-
 .top-menu {
     background-color: #007ec7;
     -webkit-border-radius: 6px;
@@ -133,9 +131,19 @@ border-bottom: 1px solid #268fcc;
     float: right;
     margin-right: 15px;
     margin-top: 13px;
+    position: relative;
 }
 .search input {
 	color:black;
+}
+.search .btn-search {
+    position: absolute;
+    right: 57px;
+    background-color: transparent;
+    border: none;
+}
+.btn-search > img {
+    margin-top: 2px;
 }
 .search a{
 	color: #fff;
