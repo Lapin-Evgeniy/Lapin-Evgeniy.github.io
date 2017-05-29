@@ -146,6 +146,9 @@ border-bottom: 1px solid #268fcc;
     border-radius: 5px;
     text-decoration:none;
 }
+.search a.active:hover {
+	background-color: #004B7D;
+}
 .search a:hover {
 	background-color: #007EC7;
 }
