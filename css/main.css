@@ -53,6 +53,9 @@ ul {
     margin: 0 15px;
     padding: 0;
 }
+.top-menu > form {
+    display: inline;
+}
 .top-menu li {
 	display: block;
 	float: left;
