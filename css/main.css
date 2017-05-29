@@ -33,6 +33,7 @@ ul {
 .head-link a {
 	font-family: "RobotoBold";
 	text-transform: uppercase;
+	text-decoration: underline;
 }
 .head-link > div {
     line-height: 21px;
@@ -82,7 +83,6 @@ ul {
 }
 .top-menu a:hover {
 	background-color: #0D5F8F;
-	text-decoration: none;
 }
 
 .top-menu .first {
@@ -134,11 +134,23 @@ border-bottom: 1px solid #268fcc;
 	color:black;
 }
 .search a{
-	color: #fff
+	color: #fff;
+	text-decoration:underline;
+}
+.search a.active {
+    background-color: #004B7D;
+    margin-right: 3px;
+    padding: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration:none;
 }
 .search a:hover {
 	background-color: #007EC7;
 }
+
+
 	 /*  ___________________________________________________
 	 	 /  		*******	   MODAL    *******				/
 	 	/__________________________________________________/ -*/
@@ -183,12 +195,11 @@ border-bottom: 1px solid #268fcc;
 	margin-top: 30px;
 }
 .content h2 {
-	color:#000;
-	text-transform: uppercase;
-	font-size: 32px;
-	text-align: center;
-	font-weight: 400;
-	padding-bottom: 30px;
+    color: #3d3d3d;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    margin-top: 0;
 }
 .sidebar .column {
     background-color: #e0e5e9;
@@ -221,11 +232,6 @@ border-bottom: 1px solid #268fcc;
 	color: #BE3A3A;
 	border-bottom: 1px dashed #BE3A3A;
 }
-.sidebar h3 {
-    font-weight: normal;
-    margin-bottom: 10px;
-    margin-top: 0;
-}
 .sidebar .accord {
     display: inline-block;
 }
@@ -241,33 +247,43 @@ border-bottom: 1px solid #268fcc;
 }
 .tech {
 	background-color: #B4D5EA;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	margin-bottom: 15px;
+	margin-top: 37px;
+	padding-bottom: 17px;
 }
+
 .t-item {
 	width: 100%;
 	float: left;
 	position: relative;
 }
 .t-item img {
-	padding: 15px;
-	width: 100%;
-
+    padding: 20px;
+    width: 100%;
+}
+.tech-caption:hover {
+    color: #414b4f;
+    text-decoration: none;
 }
 .tech-caption {
-	text-align: center;
-	color: #fff;
-	margin: 15px;
-	position: absolute;
-	bottom: 0;
-	left:0;
-	right: 0;
-	background-color: rgba(0, 0, 0, 0.6);
+	text-decoration: underline;
+    position: absolute;
+    bottom: -23px;
+    left: 5px;
+    color: #313131;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 14px;
 }
+
 .col-size {
 	padding:0px;
+}
+.rsidebar {
+    margin-top: 36px;
 }
 .rsidebar .column {
 	margin: 0 10px;
@@ -276,11 +292,12 @@ border-bottom: 1px solid #268fcc;
 	margin-bottom: 15px;
 }
 .rsidebar h3 {
- 	border-bottom: 3px solid grey;
-    font-size: 16px;
+    border-bottom: 3px solid grey;
+    font-size: 15px;
     margin-bottom: 10px;
     padding-bottom: 8px;
     text-align: center;
+    text-transform: uppercase;
 }
 .consult {
 	width: 100%;
