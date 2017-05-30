@@ -2,10 +2,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	.top-menu li a {
-		padding: 17px 10px 17px 10px;
-		background-image: none;
-	}
+	
 	.items img {
     	display: block;
 	    margin: auto;
@@ -23,23 +20,30 @@
 	    text-align: center;
 	    width: 100%;
 	}
-	.main-menu {
-		display: none;
-	}
-
-	.btn-small {
-		display: inline-block;
-	}
-	.top-menu a:hover {
-	background-color: #007EC7;
-	text-decoration: none;
-	color:#fff;
-	border-radius: 5px;
-	}
+	
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.top-menu .container {
+		padding: 0px;
+	}
+	.menu-line {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	}
+	.first:hover {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	}
+	.nav li {
+	border-right: none;
+	}
+	.navbar-brand {
+		display: block;
+	}	
 	.model-content {
 		width: 400px;
 		font-size: 12px;
@@ -63,13 +67,7 @@
 		width: 100%;
 		font-size: 12px;
 	}
-	.top-menu {
-	   -webkit-border-radius: 0;
-		-moz-border-radius: 0;
-		border-radius: 0;
-	    margin: 0;
-	    min-width: 300px;
-	}
+
 	.contact {
 	    -webkit-border-radius: 0;
 		-moz-border-radius: 0;
@@ -109,9 +107,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.drop-cont {
-		display: none;
-	}
+	
 }
 
  /* Large Devices, Wide Screens */
