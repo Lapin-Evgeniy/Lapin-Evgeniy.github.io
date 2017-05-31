@@ -19,7 +19,7 @@
 
 	<div class="modal fade" id="Call-back">
 		<div class="modal-dialog">
-			<div class="model-content">
+			<div class="modal-content">
 				<div class="modal-header">
 					 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
        
@@ -498,8 +498,7 @@
     $(document).ready(function(){
       $('.slick-carousel').slick({
         slidesToShow: 5,
-  		slidesToScroll: 3,
-  		adaptiveHeight: true,
+  		slidesToScroll: 5,
  		autoplay: true,
   		autoplaySpeed: 3000,
   		
@@ -523,7 +522,8 @@
 			      breakpoint: 480,
 			      settings: {
 			        slidesToShow: 1,
-			        slidesToScroll: 1
+			        slidesToScroll: 1,
+			        arrows:false,
 			      }
 			    }
 			   ]
