@@ -93,6 +93,7 @@
 		border-right: none;	
 	}
 	.nav li > a {
+		background:url(../img/mnu-iconpack.png) no-repeat;
 		font-size: 14px;
 		-webkit-background-size: 24px;
 		background-size: 24px;
