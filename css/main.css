@@ -67,8 +67,28 @@ ul {
 	border-right: 1px solid #268fcc;
 }
 .nav li > a {
+	background:url(../img/mnu-iconpack.png) no-repeat;
+    background-position: 7px 9px;
 	color:#fff;
+	padding-left:43px;
+	text-transform: uppercase;
 }
+.nav li:nth-child(2) a {
+	background-position: 7px -107px;
+}
+.nav li:nth-child(3) a {
+	background-position: 7px -46px;
+}
+.nav li:nth-child(4) a {
+	background-position: 7px -165px;
+}
+.nav li:nth-child(5) a {
+	background-position: 7px -221px;
+}
+.nav li:nth-child(6) a {
+	background-position: 7px -275px;
+}
+
 .nav li > a:hover, .nav > li > a:focus {
 	background-color: #0D5F8F; 
 }
@@ -135,18 +155,43 @@ ul {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
-.item {
-    display: inline-block;
-    margin-left: 10px;
-	}
-.items li {
-
-	padding: 5px 17px;
-	display: inline-block;
+.slick-slider {
+	padding:0 20px;
 }
+.slick-list {
+    margin: 0 10px;
+}
+.slick-arrow {
+	position: absolute;
+}
+.slick-prev {
+	left:0;
+	top:50%;
+	background: url("../img/arrows.png") no-repeat;
+}
+.slick-next {
+	right: 0;
+	top:50%;
+	background: url("../img/arrows.png") no-repeat;
+	background-position: -24px 0px;
+}
+.slick-prev, .slick-next {
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    transform: translate(0px, -50%);
+    height: 35px;
+    width: 20px;
+    border:none;
+
+}
+    
+
  /* 	  ___________________________________________________
 	 	 /  		*******	Content  *******				/
 	 	/__________________________________________________/ -*/
+}
 .main {
 	margin-top: 30px;
 }
